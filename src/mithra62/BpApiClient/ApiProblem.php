@@ -10,6 +10,9 @@
  
 namespace mithra62\BpApiClient;
 
+use JaegerApp\Rest\Client\ApiProblem AS JaegerApiProblem;
+
+
 /**
  * ApiProblem Object
  *
@@ -18,7 +21,7 @@ namespace mithra62\BpApiClient;
  * @package BackupPro\Rest
  * @author Eric Lamb <eric@mithra62.com>
  */
-class ApiProblem extends \Crell\ApiProblem\ApiProblem
+class ApiProblem extends JaegerApiProblem
 {
     
 }

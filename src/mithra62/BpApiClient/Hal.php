@@ -10,6 +10,8 @@
  
 namespace mithra62\BpApiClient;
 
+use JaegerApp\Rest\Client\Hal AS JaegerHal;
+
 /**
  * Hal Object
  *
@@ -18,7 +20,7 @@ namespace mithra62\BpApiClient;
  * @package BackupPro\Rest
  * @author Eric Lamb <eric@mithra62.com>
  */
-class Hal extends \Nocarrier\Hal
+class Hal extends JaegerHal
 {
     
 }
